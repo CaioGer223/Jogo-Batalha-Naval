@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalha Naval</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" type="text/javascript">
+    </script>
+</head>
+<body>
+    <h1 style="text-align: center;">Batalha Naval</h1>
+    <main id="box">
+        <section id="Navios">
+            <div id="cortina" class="cortina"></div>
+            <table id="GradeJogo">
+                <tr class="grade">
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                </tr>
+
+                <tr class="grade">
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                </tr>
+
+                <tr class="grade">
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                </tr>
+
+                <tr class="grade">
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                </tr>
+
+                <tr class="grade">
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                    <td><img onclick="atirar(this)" class="tiro" src="/img/agua.png"></td>
+                </tr>
+            </table>
+        </section>
+
+        <nav>
+            <p>Dificuldades</p>
+             
+            <button class="btn"> 
+                <img onclick="Facil()" id="facil" class="modos" src="img/FacilIcon.png" alt="Seletor de Dificuldade Fácil, imagem caveira simples">
+            </button>
+
+            <br>
+
+            <button class="btn">
+                <img onclick="Dificil(this)" id="dificil" class="modos" src="img/DificilIcon.png" alt="">
+            </button>
+
+        </nav>
+    </main>
+    <p id="ponto">Pontos Obtidos: 0</p>
+</body>
+</html>
